@@ -12,6 +12,10 @@ v-app
     v-alert(color="info" value="true" icon="check_circle" dismissible) This is an alert
     v-alert(color="error" dismissible icon="warning" value="true") Something else
     v-btn(color="secondary") Click me
+    v-rows 
+    v-col(cols='12') 
+      v-card
+        v-card-title aaa
 </template>
 
 <script setup lang="ts">
