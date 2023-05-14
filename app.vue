@@ -8,6 +8,10 @@ v-app
         v-card-subtitle {{ color }}
         v-card-text
           v-color-picker(v-model='color')
+
+    v-alert(color="info" value="true" icon="check_circle" dismissible) This is an alert
+    v-alert(color="error" dismissible icon="warning" value="true") Something else
+    v-btn(color="secondary") Click me
 </template>
 
 <script setup lang="ts">
