@@ -6,7 +6,7 @@ export default defineNuxtConfig({
   ssr: false,
   css: ["vuetify/styles", "@mdi/font/css/materialdesignicons.css"],
   build: {
-    transpile: ["vuetify"],
+    transpile: ["vuetify", "chart.js"],
   },
   vite: {
     define: {
