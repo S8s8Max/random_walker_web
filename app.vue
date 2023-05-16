@@ -2,32 +2,28 @@
   <div>
     <Navigation />
     <v-card 
-      class="mx-auto"
-      width="1200"
+      width="auto"
     >
       <v-card-item>
       <Chart />
       </v-card-item>
     </v-card>
-    <v-card 
-      class="mx-auto"
-      width="1200"
+    <v-card
+      width="auto"
     >
       <v-card-item>
       <Chart />
       </v-card-item>
     </v-card>
-    <v-card 
-      class="mx-auto"
-      width="1200"
+    <v-card
+      width="auto"
     >
       <v-card-item>
       <Chart />
       </v-card-item>
     </v-card>
-    <v-card 
-      class="mx-auto"
-      width="1200"
+    <v-card
+      width="auto"
     >
       <v-card-item>
       <Chart />
