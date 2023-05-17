@@ -1,5 +1,4 @@
 <template>
-<v-layout>
   <v-navigation-drawer
     expand-on-hover
     rail
@@ -20,16 +19,11 @@
       <v-list-item prepend-icon="mdi-database-check-outline" title="Back Test" value="Back Test"></v-list-item>
       <v-list-item prepend-icon="mdi-search-web" title="Info" value="Info"></v-list-item>
       <v-list-item prepend-icon="mdi-account" title="Account" value="Account"></v-list-item>
-      <v-list-item>
-        <ThemeChanger />
-      </v-list-item>
     </v-list>
   </v-navigation-drawer>
-</v-layout>
 </template>
 
 <script>
-import ThemeChanger from './ThemeChanger.vue';
 export default {
   component: "Navigation"
 }
