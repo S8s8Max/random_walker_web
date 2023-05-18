@@ -6,7 +6,7 @@
     color="primary"
     density="compact"
   >
-    <v-app-bar-title>Random Walker Web</v-app-bar-title>
+    <StreamNews />
     <template v-slot:append>
       <ThemeChanger />
     </template>
@@ -15,8 +15,10 @@
 
 <script>
 import ThemeChanger from '../ThemeChanger.vue';
+import StreamNews from './StreamNews.vue';
 export default {
-  component: "AppBar"
+    component: "AppBar",
+    components: { StreamNews }
 }
 
 </script>

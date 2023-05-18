@@ -25,7 +25,6 @@ const data:ChartData<'line'> = {
   datasets: [
     {
       label: 'Data One',
-      backgroundColor: '#f87979',
       data: [40, 39, 105, 60, 39, 110, 140, 50, 275, 167, 172, 192]
     }
   ]
@@ -33,11 +32,18 @@ const data:ChartData<'line'> = {
 
 const options:ChartOptions<'line'> = {
   responsive: true,
-  maintainAspectRatio: false
+  maintainAspectRatio: false,
+  borderColor: '#8338fc'
 };
 </script>
 
 <template>
-  <!-- 定義したdataとoptionsを渡してあげます。 -->
-  <Line :data="data" :options="options"/>
+  <v-card >
+    <v-card-title>
+      Line Chart
+    </v-card-title>
+    <v-card-text class="chart-container">
+      <Line :data="data" :options="options"/>
+    </v-card-text>
+  </v-card>
 </template>

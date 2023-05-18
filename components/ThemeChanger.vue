@@ -21,4 +21,5 @@ theme.global.name.value = 'dark';
 const changeTheme = () => {
   theme.global.name.value = darkTheme.value ? 'dark' : 'light'
 }
+
 </script>

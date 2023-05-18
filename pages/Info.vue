@@ -1,12 +1,26 @@
 <template>
-  <v-container>
+  <v-container fluid>
+    <v-row justify="center">
+      <v-col>
+        Info.vue
+      </v-col>
+    </v-row>
     <v-row>
-      <v-column class="text-h1">
-        This is Info.vue
-      </v-column>
-      <v-column>
+      <v-col>
+        <ChartsLineChart />
+      </v-col>
+    </v-row>
+
+    <v-row>
+      <v-col cols="6">
+        <ChartsPieChart />
+      </v-col>
+      <v-col cols="3">
+        <ChartsPieChart />
+      </v-col>
+      <v-col cols="3">
         <Card />
-      </v-column>
+      </v-col>
     </v-row>
   </v-container>
 </template>
