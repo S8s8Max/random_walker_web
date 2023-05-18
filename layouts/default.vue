@@ -2,11 +2,13 @@
   <v-app>
     <Navigation />
     <AppBar />
-    <slot />
+    <v-main>
+      <slot />
+    </v-main>
   </v-app>
 </template>
 
 <script setup lang="ts">
-import Navigation from "../components/Navigation.vue";
-import AppBar from "../components/AppBar.vue";
+import Navigation from "../components/layouts/Navigation.vue";
+import AppBar from "../components/layouts/AppBar.vue";
 </script>

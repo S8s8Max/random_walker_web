@@ -1,5 +1,7 @@
 <template>
   <v-app-bar
+    absolute
+    app
     elevation="2"
     color="primary"
     density="compact"
@@ -12,7 +14,7 @@
 </template>
 
 <script>
-import ThemeChanger from './ThemeChanger.vue';
+import ThemeChanger from '../ThemeChanger.vue';
 export default {
   component: "AppBar"
 }
